@@ -103,7 +103,7 @@
             this.totalPoints.Size = new System.Drawing.Size(57, 20);
             this.totalPoints.TabIndex = 5;
             this.totalPoints.Text = "label1";
-            this.totalPoints.Click += new System.EventHandler(this.label1_Click_1);
+
             // 
             // vragen
             // 

@@ -102,7 +102,7 @@
             this.totalPoints.Size = new System.Drawing.Size(57, 20);
             this.totalPoints.TabIndex = 10;
             this.totalPoints.Text = "label1";
-            this.totalPoints.Click += new System.EventHandler(this.totalPoints_Click);
+
             // 
             // vraag_2
             // 
@@ -119,7 +119,7 @@
             this.Name = "vraag_2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "vraag_2";
-            this.Load += new System.EventHandler(this.vraag_2_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 

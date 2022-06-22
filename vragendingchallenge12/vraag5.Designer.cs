@@ -119,7 +119,7 @@ namespace vragendingchallenge12
             this.Name = "vraag5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "vraag5";
-            this.Load += new System.EventHandler(this.vraag5_Load);
+ 
             this.ResumeLayout(false);
             this.PerformLayout();
 
