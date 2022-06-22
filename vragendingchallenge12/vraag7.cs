@@ -20,9 +20,7 @@ namespace vragendingchallenge12
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form to = new vraag8();
-            to.Show();
-            Hide();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -35,16 +33,12 @@ namespace vragendingchallenge12
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form to = new vraag8();
-            to.Show();
-            Hide();
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form to = new vraag8();
-            to.Show();
-            Hide();
+
         }
 
         private void vraag7_Load(object sender, EventArgs e)

@@ -18,43 +18,33 @@ namespace vragendingchallenge12
             this.totalPoints.Text = Totalepuntjes.GetTotal().ToString();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void vraag8_Load(object sender, EventArgs e)
         {
             Form to = new vraag9();
             to.Show();
             Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void totalPoints_Click(object sender, EventArgs e)
         {
             Form to = new vraag9();
             to.Show();
             Hide();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form to = new vraag9();
+            to.Show();
+            Hide();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
         {
             Totalepuntjes.AddPoints(1, 1);
             Form to = new vraag9();
             to.Show();
             Hide();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Form to = new vraag9();
-            to.Show();
-            Hide();
-        }
-
-        private void vraag8_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void totalPoints_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
