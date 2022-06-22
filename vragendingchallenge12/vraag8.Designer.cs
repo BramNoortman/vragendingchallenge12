@@ -59,7 +59,7 @@ namespace vragendingchallenge12
             this.totalPoints.Size = new System.Drawing.Size(57, 20);
             this.totalPoints.TabIndex = 10;
             this.totalPoints.Text = "label1";
-            this.totalPoints.Click += new System.EventHandler(this.totalPoints_Click);
+
             // 
             // button4
             // 
@@ -118,7 +118,7 @@ namespace vragendingchallenge12
             this.Name = "vraag8";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "vraag8";
-            this.Load += new System.EventHandler(this.vraag8_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
