@@ -20,7 +20,7 @@ namespace vragendingchallenge12
 
         private void button1_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:/Users/bram/source/repos/vragendingchallenge12/vragendingchallenge12/sounds/YT2mp3.info_-Anime-Shine-Sound-Effect-ProSounds-_320kbps_-AudioTrimmer.com.wav");
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:/Users/bram/source/repos/vragendingchallenge12/vragendingchallenge12/sounds/YT2mp3.info_-Victory-Anime-Sound-Effect-_320kbps_-AudioTrimmer.com.wav");
             player.Play();
             Totalepuntjes.AddPoints(1, 1);
             Form to = new Resultaat();
@@ -30,7 +30,7 @@ namespace vragendingchallenge12
 
         private void button2_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:/Users/bram/source/repos/vragendingchallenge12/vragendingchallenge12/sounds/YT2mp3.info_-Anime-Shine-Sound-Effect-ProSounds-_320kbps_-AudioTrimmer.com.wav");
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:/Users/bram/source/repos/vragendingchallenge12/vragendingchallenge12/sounds/YT2mp3.info_-Victory-Anime-Sound-Effect-_320kbps_-AudioTrimmer.com.wav");
             player.Play();
             Totalepuntjes.AddPoints(1, 1);
             Form to = new Resultaat();
@@ -40,7 +40,7 @@ namespace vragendingchallenge12
 
         private void button3_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:/Users/bram/source/repos/vragendingchallenge12/vragendingchallenge12/sounds/YT2mp3.info_-Anime-Shine-Sound-Effect-ProSounds-_320kbps_-AudioTrimmer.com.wav");
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:/Users/bram/source/repos/vragendingchallenge12/vragendingchallenge12/sounds/YT2mp3.info_-Victory-Anime-Sound-Effect-_320kbps_-AudioTrimmer.com.wav");
             player.Play();
             Totalepuntjes.AddPoints(1, 1);
             Form to = new Resultaat();
@@ -50,7 +50,7 @@ namespace vragendingchallenge12
 
         private void button4_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:/Users/bram/source/repos/vragendingchallenge12/vragendingchallenge12/sounds/YT2mp3.info_-Anime-Shine-Sound-Effect-ProSounds-_320kbps_-AudioTrimmer.com.wav");
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:/Users/bram/source/repos/vragendingchallenge12/vragendingchallenge12/sounds/YT2mp3.info_-Victory-Anime-Sound-Effect-_320kbps_-AudioTrimmer.com.wav");
             player.Play();
             Totalepuntjes.AddPoints(1, 1);
             Form to = new Resultaat();
