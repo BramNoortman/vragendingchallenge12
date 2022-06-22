@@ -1,6 +1,7 @@
-﻿namespace vragendingchallenge12
+﻿
+namespace vragendingchallenge12
 {
-    partial class vraag_2
+    partial class vraag4
     {
         /// <summary>
         /// Required designer variable.
@@ -28,19 +29,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(vraag_2));
-            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(vraag4));
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.vraag1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // timer2
-            // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // button4
             // 
@@ -87,7 +82,7 @@
             this.vraag1.TabIndex = 5;
             this.vraag1.Text = "vragen";
             // 
-            // vraag_2
+            // vraag4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -98,9 +93,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.vraag1);
-            this.Name = "vraag_2";
+            this.Name = "vraag4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "vraag_2";
+            this.Text = "vraag4";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -108,7 +103,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;

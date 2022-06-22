@@ -1,6 +1,7 @@
-﻿namespace vragendingchallenge12
+﻿
+namespace vragendingchallenge12
 {
-    partial class Form1
+    partial class Resultaat
     {
         /// <summary>
         /// Required designer variable.
@@ -28,37 +29,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button1 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Resultaat));
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // label1
             // 
-            this.button1.Location = new System.Drawing.Point(477, 298);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(220, 68);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "ga naar vragen";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(153, 406);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(382, 108);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Punten:";
             // 
-            // Form1
+            // Resultaat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1199, 693);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Controls.Add(this.label1);
+            this.Name = "Resultaat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Resultaat";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }
-

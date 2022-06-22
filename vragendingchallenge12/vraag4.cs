@@ -5,22 +5,16 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Data.SQLite;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace vragendingchallenge12
 {
-    public partial class vragen : Form
+    public partial class vraag4 : Form
     {
-        public vragen()
+        public vraag4()
         {
             InitializeComponent();
-        }
-
-        private void vraag1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

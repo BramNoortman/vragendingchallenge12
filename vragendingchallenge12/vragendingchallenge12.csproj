@@ -73,11 +73,65 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resultaat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resultaat.Designer.cs">
+      <DependentUpon>Resultaat.cs</DependentUpon>
+    </Compile>
     <Compile Include="vraag 2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="vraag 2.Designer.cs">
       <DependentUpon>vraag 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vraag10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vraag10.Designer.cs">
+      <DependentUpon>vraag10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vraag3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vraag3.Designer.cs">
+      <DependentUpon>vraag3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vraag4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vraag4.Designer.cs">
+      <DependentUpon>vraag4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vraag5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vraag5.Designer.cs">
+      <DependentUpon>vraag5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vraag6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vraag6.Designer.cs">
+      <DependentUpon>vraag6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vraag7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vraag7.Designer.cs">
+      <DependentUpon>vraag7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vraag8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vraag8.Designer.cs">
+      <DependentUpon>vraag8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vraag9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vraag9.Designer.cs">
+      <DependentUpon>vraag9.cs</DependentUpon>
     </Compile>
     <Compile Include="vragen.cs">
       <SubType>Form</SubType>
@@ -97,8 +151,35 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Resultaat.resx">
+      <DependentUpon>Resultaat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="vraag 2.resx">
       <DependentUpon>vraag 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vraag10.resx">
+      <DependentUpon>vraag10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vraag3.resx">
+      <DependentUpon>vraag3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vraag4.resx">
+      <DependentUpon>vraag4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vraag5.resx">
+      <DependentUpon>vraag5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vraag6.resx">
+      <DependentUpon>vraag6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vraag7.resx">
+      <DependentUpon>vraag7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vraag8.resx">
+      <DependentUpon>vraag8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vraag9.resx">
+      <DependentUpon>vraag9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="vragen.resx">
       <DependentUpon>vragen.cs</DependentUpon>
