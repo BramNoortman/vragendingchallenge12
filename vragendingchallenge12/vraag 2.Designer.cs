@@ -50,6 +50,7 @@
             this.button4.TabIndex = 9;
             this.button4.Text = "v4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -59,6 +60,7 @@
             this.button3.TabIndex = 8;
             this.button3.Text = "v3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -68,6 +70,7 @@
             this.button2.TabIndex = 7;
             this.button2.Text = "v2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -77,6 +80,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "v1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // vraag1
             // 
@@ -101,6 +105,7 @@
             this.Name = "vraag_2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "vraag_2";
+            this.Load += new System.EventHandler(this.vraag_2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

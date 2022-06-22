@@ -21,5 +21,38 @@ namespace vragendingchallenge12
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form to = new vraag3();
+            to.Show();
+            Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form to = new vraag3();
+            to.Show();
+            Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form to = new vraag3();
+            to.Show();
+            Hide();
+        }
+
+        private void vraag_2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form to = new vraag3();
+            to.Show();
+            Hide();
+        }
     }
 }
