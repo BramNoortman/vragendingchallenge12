@@ -92,7 +92,7 @@ namespace vragendingchallenge12
             this.vraag1.Size = new System.Drawing.Size(482, 25);
             this.vraag1.TabIndex = 5;
             this.vraag1.Text = "3. Wie voert de aanwezigheid in op eduarte?";
-            this.vraag1.Click += new System.EventHandler(this.vraag1_Click);
+
             // 
             // totalPoints
             // 
@@ -104,7 +104,7 @@ namespace vragendingchallenge12
             this.totalPoints.Size = new System.Drawing.Size(57, 20);
             this.totalPoints.TabIndex = 10;
             this.totalPoints.Text = "label1";
-            this.totalPoints.Click += new System.EventHandler(this.totalPoints_Click);
+
             // 
             // vraag3
             // 
@@ -121,7 +121,7 @@ namespace vragendingchallenge12
             this.Name = "vraag3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "vraag3";
-            this.Load += new System.EventHandler(this.vraag3_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 

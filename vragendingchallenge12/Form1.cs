@@ -20,6 +20,8 @@ namespace vragendingchallenge12
 
         private void button1_Click(object sender, EventArgs e)
         {
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:/Users/bram/source/repos/vragendingchallenge12/vragendingchallenge12/sounds/YT2mp3.info_-Anime-Shine-Sound-Effect-ProSounds-_320kbps_-AudioTrimmer.com.wav");
+            player.Play();
             Form to = new vragen();
             to.Show();
             Hide();

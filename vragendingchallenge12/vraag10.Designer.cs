@@ -89,9 +89,9 @@ namespace vragendingchallenge12
             this.vraag1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vraag1.Location = new System.Drawing.Point(349, 215);
             this.vraag1.Name = "vraag1";
-            this.vraag1.Size = new System.Drawing.Size(474, 25);
+            this.vraag1.Size = new System.Drawing.Size(487, 25);
             this.vraag1.TabIndex = 5;
-            this.vraag1.Text = "9. hebben de meeste mensen haat op CSS?";
+            this.vraag1.Text = "10. hebben de meeste mensen haat op CSS?";
             // 
             // totalPoints
             // 
@@ -103,7 +103,6 @@ namespace vragendingchallenge12
             this.totalPoints.Size = new System.Drawing.Size(57, 20);
             this.totalPoints.TabIndex = 10;
             this.totalPoints.Text = "label1";
-            this.totalPoints.Click += new System.EventHandler(this.label1_Click);
             // 
             // vraag10
             // 
@@ -119,8 +118,7 @@ namespace vragendingchallenge12
             this.Controls.Add(this.vraag1);
             this.Name = "vraag10";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "vraag9";
-            this.Load += new System.EventHandler(this.vraag10_Load);
+            this.Text = "vraag10";
             this.ResumeLayout(false);
             this.PerformLayout();
 
