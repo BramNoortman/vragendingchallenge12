@@ -15,6 +15,7 @@ namespace vragendingchallenge12
         public vraag_2()
         {
             InitializeComponent();
+            this.totalPoints.Text = Totalepuntjes.GetTotal().ToString();
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -24,6 +25,7 @@ namespace vragendingchallenge12
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Totalepuntjes.AddPoints(1, 1);
             Form to = new vraag3();
             to.Show();
             Hide();
@@ -53,6 +55,11 @@ namespace vragendingchallenge12
             Form to = new vraag3();
             to.Show();
             Hide();
+        }
+
+        private void totalPoints_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

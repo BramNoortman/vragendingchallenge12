@@ -15,10 +15,12 @@ namespace vragendingchallenge12
         public vraag10()
         {
             InitializeComponent();
+            this.totalPoints.Text = Totalepuntjes.GetTotal().ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Totalepuntjes.AddPoints(1, 1);
             Form to = new Resultaat();
             to.Show();
             Hide();
@@ -26,6 +28,7 @@ namespace vragendingchallenge12
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Totalepuntjes.AddPoints(1, 1);
             Form to = new Resultaat();
             to.Show();
             Hide();
@@ -33,6 +36,7 @@ namespace vragendingchallenge12
 
         private void button3_Click(object sender, EventArgs e)
         {
+            Totalepuntjes.AddPoints(1, 1);
             Form to = new Resultaat();
             to.Show();
             Hide();
@@ -40,9 +44,20 @@ namespace vragendingchallenge12
 
         private void button4_Click(object sender, EventArgs e)
         {
+            Totalepuntjes.AddPoints(1, 1);
             Form to = new Resultaat();
             to.Show();
             Hide();
+        }
+
+        private void vraag10_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

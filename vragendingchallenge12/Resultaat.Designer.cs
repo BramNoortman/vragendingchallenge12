@@ -39,7 +39,7 @@ namespace vragendingchallenge12
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(153, 406);
+            this.label1.Location = new System.Drawing.Point(267, 391);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(382, 108);
             this.label1.TabIndex = 0;
@@ -48,9 +48,11 @@ namespace vragendingchallenge12
             // totalPoints
             // 
             this.totalPoints.AutoSize = true;
-            this.totalPoints.Location = new System.Drawing.Point(542, 467);
+            this.totalPoints.BackColor = System.Drawing.Color.Transparent;
+            this.totalPoints.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalPoints.Location = new System.Drawing.Point(655, 420);
             this.totalPoints.Name = "totalPoints";
-            this.totalPoints.Size = new System.Drawing.Size(35, 13);
+            this.totalPoints.Size = new System.Drawing.Size(210, 73);
             this.totalPoints.TabIndex = 1;
             this.totalPoints.Tag = "";
             this.totalPoints.Text = "label2";
@@ -67,6 +69,7 @@ namespace vragendingchallenge12
             this.Name = "Resultaat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Resultaat";
+            this.Load += new System.EventHandler(this.Resultaat_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

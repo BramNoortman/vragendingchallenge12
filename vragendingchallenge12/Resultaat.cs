@@ -22,5 +22,10 @@ namespace vragendingchallenge12
         {
             
         }
+
+        private void Resultaat_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
