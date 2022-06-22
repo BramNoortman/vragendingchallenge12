@@ -200,9 +200,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sounds\YT2mp3.info_-Anime-Shine-Sound-Effect-ProSounds-_320kbps_.wav" />
-    <Content Include="sounds\YT2mp3.info_-Awkward-Moment-Anime-Sound-Sound-Effect-for-editing-_320kbps_.wav" />
-    <Content Include="sounds\YT2mp3.info_-Victory-Anime-Sound-Effect-_320kbps_.wav" />
+    <Content Include="sounds\YT2mp3.info_-Anime-Shine-Sound-Effect-ProSounds-_320kbps_-[AudioTrimmer.com].wav" />
+    <Content Include="sounds\YT2mp3.info_-Awkward-Moment-Anime-Sound-Sound-Effect-for-editing-_320kbps_-[AudioTrimmer.com].wav" />
+    <Content Include="sounds\YT2mp3.info_-Victory-Anime-Sound-Effect-_320kbps_-[AudioTrimmer.com].wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
