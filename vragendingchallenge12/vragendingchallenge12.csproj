@@ -73,6 +73,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Punten.cs" />
     <Compile Include="vraag 2.cs">
       <SubType>Form</SubType>
     </Compile>
