@@ -34,12 +34,7 @@ namespace vragendingchallenge12
             Hide();
         }
 
-        private void vraag9_Load(object sender, EventArgs e)
-        {
-            Form to = new vraag10();
-            to.Show();
-            Hide();
-        }
+
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -49,9 +44,11 @@ namespace vragendingchallenge12
             Hide();
         }
 
-        private void totalPoints_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
+            Form to = new vraag10();
+            to.Show();
+            Hide();
         }
     }
 }

@@ -58,6 +58,7 @@ namespace vragendingchallenge12
             this.button3.TabIndex = 8;
             this.button3.Text = "10000000000000000000000000000000";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -102,7 +103,6 @@ namespace vragendingchallenge12
             this.totalPoints.Size = new System.Drawing.Size(57, 20);
             this.totalPoints.TabIndex = 10;
             this.totalPoints.Text = "label1";
-            this.totalPoints.Click += new System.EventHandler(this.totalPoints_Click);
             // 
             // vraag9
             // 
@@ -119,7 +119,6 @@ namespace vragendingchallenge12
             this.Name = "vraag9";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "vraag9";
-            this.Load += new System.EventHandler(this.vraag9_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

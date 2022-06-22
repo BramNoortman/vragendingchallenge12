@@ -46,15 +46,5 @@ namespace vragendingchallenge12
             to.Show();
             Hide();
         }
-
-        private void vraag8_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void totalPoints_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
