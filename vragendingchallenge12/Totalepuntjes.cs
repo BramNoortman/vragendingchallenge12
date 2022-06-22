@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace vragendingchallenge12
 {
-    public class Punten
+    public class Totalepuntjes
     {
+            
         private static double totalPoints = 0;
         private static List<string> punten = new List<string>();
         public static double GetTotal()

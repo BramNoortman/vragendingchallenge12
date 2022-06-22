@@ -31,6 +31,7 @@ namespace vragendingchallenge12
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Resultaat));
             this.label1 = new System.Windows.Forms.Label();
+            this.totalPoints = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -44,12 +45,24 @@ namespace vragendingchallenge12
             this.label1.TabIndex = 0;
             this.label1.Text = "Punten:";
             // 
+            // totalPoints
+            // 
+            this.totalPoints.AutoSize = true;
+            this.totalPoints.Location = new System.Drawing.Point(542, 467);
+            this.totalPoints.Name = "totalPoints";
+            this.totalPoints.Size = new System.Drawing.Size(35, 13);
+            this.totalPoints.TabIndex = 1;
+            this.totalPoints.Tag = "";
+            this.totalPoints.Text = "label2";
+            this.totalPoints.Click += new System.EventHandler(this.label2_Click);
+            // 
             // Resultaat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1199, 693);
+            this.Controls.Add(this.totalPoints);
             this.Controls.Add(this.label1);
             this.Name = "Resultaat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -62,5 +75,6 @@ namespace vragendingchallenge12
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label totalPoints;
     }
 }

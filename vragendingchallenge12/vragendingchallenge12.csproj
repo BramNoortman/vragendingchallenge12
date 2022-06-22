@@ -79,6 +79,7 @@
     <Compile Include="Resultaat.Designer.cs">
       <DependentUpon>Resultaat.cs</DependentUpon>
     </Compile>
+    <Compile Include="Totalepuntjes.cs" />
     <Compile Include="vraag 2.cs">
       <SubType>Form</SubType>
     </Compile>
