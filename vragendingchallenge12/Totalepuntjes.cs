@@ -11,6 +11,8 @@ namespace vragendingchallenge12
             
         private static int totalPoints = 0;
         private static List<int> punten = new List<int>();
+        // get and set?
+
         public static int GetTotal()
         {
             return totalPoints;

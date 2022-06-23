@@ -21,7 +21,6 @@ namespace vragendingchallenge12
 
         private void vraag1_Click(object sender, EventArgs e)
         {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -59,6 +58,11 @@ namespace vragendingchallenge12
             Form to = new vraag_2();
             to.Show();
             Hide();
+        }
+
+        private void totalPoints_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
